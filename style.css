@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to right, lightblue, white);
+}
+
+form{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:100px;
+}
+
+input{
+    border-radius: 5px;;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+button{
+    border-radius:10px;
+    text-align: center;
+    margin-left:5px;
+}
+
+.products{
+    margin:10px;
+    background-color: rgb(115, 188, 224);
+    color: white;
+    max-width:500px;
+    border-radius: 5px;
+    padding:10px;
+}
+
+h1{
+    margin-top:40px;
+    margin-left:10px;
+    margin-bottom:10px;
+}

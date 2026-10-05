@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="heading">SHOPPING  CART</div>
+    <form onsubmit="handleFormSubmit(event)">
+        <div>
+             <label for="sellingPrice">Selling Price</label>
+    <input type="number" name="sellingPrice" id="sellingPrice" />
+        </div>
+   <div>
+    <label for="productName">Product Name</label>
+    <input type="text" name="productName" id="productName" />
+   </div>
+    
+   <div>
+     <label for="category">Category</label>
+    <select id="category" name="city">
+    <option value="Electronics">Electronics</option>
+    <option value="Food">Food</option>
+    <option value="SkinCare">Skin Care</option>
+</select>
+   </div>
+   <div>
+    <button type="submit">Add Product</button>
+   </div>
+    
+  </form>
+
+  <h1>Products</h1>
+  <div >
+    <div class="products">
+        <h3>Electronics</h3>
+         <ul id="ul1"></ul>
+    </div>
+ <div class="products">
+        <h3>Food</h3>
+         <ul id="ul2"></ul>
+    </div>
+     <div class="products">
+        <h3>Skincare</h3>
+         <ul id="ul3"></ul>
+    </div>
+  </div>
+
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+</body>
+</html>
